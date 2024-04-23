@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import Logo from '../images/logo.svg'
-
+// <img width='100px' src={Logo} alt="Logo" />
 
 const Navbar = ({openModal, openOutModal}) => {
 
@@ -9,8 +9,8 @@ const Navbar = ({openModal, openOutModal}) => {
         <nav id='navbar' className="navbar navbar-expand-sm px-1 navbar-light"  style={{backgroundColor:'white'}  } >
             <div className="container-fluid"> 
             <a href="/" className="navbar-brand text-info" >
-		 /*  <img width='100px' src={Logo} alt="Logo" /> */
-	   <h3>Speedy</h3>
+		
+	   <h3 className="text-dark ">Speedy</h3>
 	    </a>   
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span className="navbar-toggler-icon"></span>
